@@ -10,7 +10,6 @@ setalarm(false, true) -> false
 setalarm(false, false) -> false
 setalarm(true, false) -> true
 */
-
-function setAlarm(employed, vacation){
-
+const setAlarm = (employed, vacation) => {
+  return employed === true && vacation === false ? true : false;
 }
